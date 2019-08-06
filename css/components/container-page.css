@@ -1,0 +1,31 @@
+.container-page {
+  /* background-color: var(--color-base); */
+  background-image: linear-gradient(
+    to right top,
+    #0064b1,
+    #1569b8,
+    #226dbf,
+    #2d72c6,
+    #3677cd,
+    #2881d3,
+    #188bd9,
+    #0094dd,
+    #00a3dc,
+    #00afd4,
+    #00bac8,
+    #39c4bb
+  );
+  max-width: 960px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 40px 1fr 40px;
+  grid-template-rows: auto;
+  grid-template-areas:
+    'header header header'
+    '. home .'
+    '. about .';
+}

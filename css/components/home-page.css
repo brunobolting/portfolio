@@ -1,0 +1,22 @@
+.home-page {
+  grid-area: home;
+  height: calc(100vh - 55px);
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+  /* background-color: var(--color-out-base); */
+}
+
+.home-page > .title {
+  margin-top: 100px;
+  color: var(--color-primary);
+  font-size: 5em;
+  letter-spacing: 5px;
+}
+
+.home-page > .sub-title {
+  margin-top: 10px;
+  color: var(--color-secondary);
+  letter-spacing: 9px;
+  font-size: 1.5em;
+}

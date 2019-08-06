@@ -1,0 +1,22 @@
+body {
+  background-color: var(--color-out-base);
+  /* background-image: linear-gradient(
+    to right,
+    #27252c,
+    #3b3947,
+    #4e4e63,
+    #606582,
+    #717da2,
+    #717da2,
+    #717da2,
+    #717da2,
+    #606582,
+    #4e4e63,
+    #3b3947,
+    #27252c
+  ); */
+  background-image: url('../../assets/images/binary-code-2.png');
+  background-repeat: repeat;
+  /* background-size: cover; */
+  font-family: 'Blinker', sans-serif;
+}
