@@ -12,6 +12,9 @@
   color: var(--color-primary);
   font-size: 5em;
   letter-spacing: 5px;
+  text-shadow: 1px 1px 1px var(--color-out-base);
+  display: block;
+  text-align: center;
 }
 
 .home-page > .sub-title {
@@ -19,4 +22,6 @@
   color: var(--color-secondary);
   letter-spacing: 9px;
   font-size: 1.5em;
+  display: block;
+  text-align: center;
 }

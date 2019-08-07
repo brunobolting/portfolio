@@ -1,0 +1,4 @@
+.project-page {
+  grid-area: project;
+  color: var(--color-primary);
+}

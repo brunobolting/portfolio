@@ -2,17 +2,17 @@
   /* background-color: var(--color-base); */
   background-image: linear-gradient(
     to right top,
-    #0064b1,
-    #1569b8,
-    #226dbf,
-    #2d72c6,
-    #3677cd,
-    #2881d3,
-    #188bd9,
-    #0094dd,
-    #00a3dc,
-    #00afd4,
-    #00bac8,
+    #05508b,
+    #045c98,
+    #0468a5,
+    #0374b1,
+    #0280be,
+    #008bc5,
+    #0095cb,
+    #00a0d0,
+    #00aace,
+    #00b3ca,
+    #0bbcc3,
     #39c4bb
   );
   max-width: 960px;
@@ -27,5 +27,7 @@
   grid-template-areas:
     'header header header'
     '. home .'
-    '. about .';
+    '. about .'
+    '. project .'
+    '. contact .';
 }

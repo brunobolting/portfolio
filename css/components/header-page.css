@@ -6,34 +6,3 @@
   justify-content: flex-end;
   margin-top: 25px;
 }
-
-.header-page > .social-icon {
-  color: var(--color-primary);
-  background-color: var(--color-base);
-  border-radius: 3px;
-  padding-top: 5px;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding: 5px;
-  text-decoration: none;
-  width: 30px;
-  text-align: center;
-  font-size: 25px;
-  transition: background-color 0.3s ease-out;
-}
-
-.header-page > .social-icon.-facebook:hover {
-  background-color: #4267b2;
-}
-
-.header-page > .social-icon.-linkedin:hover {
-  background-color: #0077b5;
-}
-
-.header-page > .social-icon.-github:hover {
-  background-color: #24292e;
-}
-
-.header-page > .social-icon.-last {
-  margin-right: 20px;
-}

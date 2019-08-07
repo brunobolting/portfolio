@@ -1,4 +1,5 @@
 .secondary-title {
   font-size: 2.5em;
   margin: 20px 40px;
+  color: inherit;
 }

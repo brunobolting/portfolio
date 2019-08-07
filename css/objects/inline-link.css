@@ -1,0 +1,5 @@
+.inline-link {
+  text-decoration: none;
+  color: var(--color-out-base);
+  font-size: inherit;
+}
