@@ -1,16 +1,16 @@
 .home-page {
   grid-area: home;
   height: calc(100vh - 55px);
-  display: flex;
+  /* display: flex;
   align-items: center;
-  flex-flow: column wrap;
+  flex-flow: column wrap; */
   /* background-color: var(--color-out-base); */
 }
 
 .home-page > .title {
-  margin-top: 100px;
+  margin-top: 80px;
   color: var(--color-primary);
-  font-size: 5em;
+  font-size: 80px;
   letter-spacing: 5px;
   text-shadow: 1px 1px 1px var(--color-out-base);
   display: block;
@@ -21,7 +21,42 @@
   margin-top: 10px;
   color: var(--color-secondary);
   letter-spacing: 9px;
-  font-size: 1.5em;
+  font-size: 24px;
   display: block;
   text-align: center;
+}
+
+@media (max-width: 640px) {
+  .home-page {
+    height: calc(85vh - 55px);
+  }
+
+  .home-page > .title {
+    font-size: 60px;
+  }
+
+  .home-page > .sub-title {
+    letter-spacing: 5px;
+  }
+}
+
+@media (max-width: 520px) {
+  .home-page > .title {
+    font-size: 42px;
+  }
+
+  .home-page > .sub-title {
+    font-size: 20px;
+    letter-spacing: 3px;
+  }
+}
+
+@media (max-width: 440px) {
+  .home-page > .title {
+    font-size: 32px;
+  }
+
+  .home-page > .sub-title {
+    font-size: 17px;
+  }
 }

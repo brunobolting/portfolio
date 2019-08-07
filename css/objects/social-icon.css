@@ -30,6 +30,13 @@
 }
 
 .social-icon.-big {
-  font-size: 52px;
-  width: 60px;
+  font-size: 48px;
+  width: 56px;
+}
+
+@media (max-width: 460px) {
+  .social-icon.-big {
+    font-size: 42px;
+    width: 50px;
+  }
 }

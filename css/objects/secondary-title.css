@@ -1,5 +1,12 @@
 .secondary-title {
-  font-size: 2.5em;
-  margin: 20px 40px;
+  font-size: 40px;
+  margin: 20px 10px;
   color: inherit;
+}
+
+@media (max-width: 640px) {
+  .secondary-title {
+    font-size: 26px;
+    margin: 20px 10px;
+  }
 }

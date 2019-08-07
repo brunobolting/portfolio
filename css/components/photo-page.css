@@ -1,22 +1,20 @@
 .photo-page {
-  margin-top: 20vh;
-  max-width: 200px;
-  max-height: 200px;
-  width: auto;
-  height: auto;
+  margin-top: 15vh;
+  width: 200px;
+  height: 200px;
   overflow: hidden;
   border: 5px inset #ccc;
   border-radius: 100%;
-  /* display: flex;
-  align-items: center; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); */
 }
 
 .photo-page > .profile {
-  position: relative;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
   width: inherit;
   height: inherit;
-  display: block;
 }

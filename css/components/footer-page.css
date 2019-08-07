@@ -1,0 +1,13 @@
+.footer-page {
+  grid-area: footer;
+  color: var(--color-secondary);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.footer-page > .text {
+  font-size: 14pt;
+  text-align: center;
+  letter-spacing: 1px;
+}

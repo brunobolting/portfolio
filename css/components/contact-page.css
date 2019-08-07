@@ -1,15 +1,16 @@
 .contact-page {
   grid-area: contact;
-  height: calc(100vh - 30px);
+  /* height: calc(100vh - 30px); */
   color: var(--color-primary);
+  margin-bottom: 100px;
 }
 
 .contact-page > .email {
   display: block;
-  margin-top: 100px;
+  /* margin-top: 80px; */
   margin-left: auto;
   margin-right: auto;
-  font-size: 3em;
+  font-size: 40px;
   text-align: center;
   text-decoration: none;
   color: inherit;
@@ -18,4 +19,16 @@
 
 .contact-page > .email:hover {
   color: #9affff;
+}
+
+@media (max-width: 640px) {
+  .contact-page > .email {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 460px) {
+  .contact-page > .email {
+    font-size: 24px;
+  }
 }
