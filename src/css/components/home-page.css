@@ -1,6 +1,6 @@
 .home-page {
   grid-area: home;
-  height: calc(100vh - 55px);
+  height: calc(100vh - 30px); /* 30px margin container + 25px header */
   /* display: flex;
   align-items: center;
   flex-flow: column wrap; */
@@ -28,7 +28,7 @@
 
 @media (max-width: 640px) {
   .home-page {
-    height: calc(85vh - 55px);
+    height: calc(90vh - 30px);
   }
 
   .home-page > .title {

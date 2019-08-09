@@ -1,0 +1,25 @@
+body {
+  font-family: 'Blinker', sans-serif;
+  background-image: linear-gradient(to right top, #0f0f0f, #161616, #1b1b1b, #202020, #262626);
+  /* background-image: url('../../assets/images/binary-code.png'); */
+  /* background-color: #191919; */
+  background-repeat: repeat;
+  padding-left: 15px;
+  padding-right: 15px;
+  /* background-image: linear-gradient(
+    to right,
+    #27252c,
+    #3b3947,
+    #4e4e63,
+    #606582,
+    #717da2,
+    #717da2,
+    #717da2,
+    #717da2,
+    #606582,
+    #4e4e63,
+    #3b3947,
+    #27252c
+  ); */
+  /* background-size: cover; */
+}

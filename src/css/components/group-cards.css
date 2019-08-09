@@ -4,6 +4,7 @@
   justify-content: space-around;
   align-items: stretch;
   color: #0d0d0d;
+  padding-top: 10px;
 }
 
 .group-cards > .card {
