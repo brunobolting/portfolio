@@ -8,6 +8,8 @@
 }
 
 .group-cards > .card {
+  text-decoration: none;
+  color: inherit;
   width: 250px;
   min-height: 230px;
   /* width: auto;
@@ -16,6 +18,11 @@
   /* box-shadow: 1px 1px 2px var(--color-out-base); */
   margin-bottom: 25px;
   background-color: var(--color-secondary);
+  transition: box-shadow 0.25s ease-out;
+}
+
+.group-cards > .card:hover {
+  box-shadow: 3px 3px 2px var(--color-shadow-base);
 }
 
 .group-cards > .card > .image {
